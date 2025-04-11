@@ -1,0 +1,43 @@
+*{
+margin: 0;
+
+
+}
+
+
+
+body{
+background-color:  rgb(215, 215, 201);
+}
+
+h1 {
+ 
+     
+        text-align: center;
+        font-size: 50px;
+        margin-left: 630px;
+       background-color: rgb(252, 156, 2);
+       
+
+
+}
+nav button{
+
+background-color: rgb(215, 137, 40);
+border-radius: 10px;
+}
+button :hover{
+    background-color:  rgb(215, 215, 201);
+
+}
+
+
+
+.produto{
+    margin:90px;
+    display:flexbox;
+}
+a{
+text-decoration: none;
+
+}

@@ -1,0 +1,40 @@
+
+
+
+body{
+background-color: rgb(215, 215, 201);
+
+
+}
+.home{
+
+margin: 0px;
+padding: 10px;
+width: 100px;
+}
+.home :hover{
+   background-color: aliceblue; 
+}
+
+.botao,button {
+
+ background-color: darkorange;
+ margin: auto;
+display: block;
+border-radius: 10px;
+margin-top: 50px;
+width: 300px;
+text-align: center;
+}
+
+.botao :hover{
+    background-color: aliceblue; 
+
+
+}
+a {
+text-decoration: none;
+
+
+}
+

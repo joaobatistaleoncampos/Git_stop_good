@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto web</title>
+    <link rel="stylesheet"  href="css/pedido.css">
+    <link rel="stylesheet" href="pedido_salgado.html">
+    <link rel="stylesheet" href="css/pedido_salgado.css">
+   
+   </head> <!--ex: comentario html-->
+ <body> <!--tambem aqui é html-->
+   <div class="botao">
+      
+         <button><a href="doce_salgada_bebida.html">voltar</a></button>
+   </div>
+
+
+      <!-- INÍCIO CARRINHO-->
+      <div id="meu-carrinho" flex>  <!--(hidden) desaparece e aciona a opção .(flex)aparece carinho-->
+    
+         <h2>Meu carrinho</h2>
+         
+            <div id="cart-items"> </div>
+            
+                <p> Total: <span id="res">0.00</span></p>
+         
+                 <p>Endereço de entrega</p>
+         
+                 <input type="text" placeholder="Digite aqui">
+         
+                 <p id="address-warn">Digite endereço </p>
+         
+               <div >
+           
+               <button id="closse-modal-btn">Fechar </button>
+           
+             <button id="checkout-btn"> Finalizar</button>
+     
+     
+        
+           </div>
+        </div>
+   
+  
+  
+  
+  
+   <article class="conteiner">
+        
+      
+              
+                 
+                    <h1>salgados</h1>
+                 
+              <br>
+                 
+                    
+                       <section class="produto">
+                         <h2>COXINHA</h2>
+                    
+                              <ul>
+                                <li> Frango<input type="number"
+                                 name="coxinha" 
+                                  id="somar" ></li>
+                                
+                                <li> Presunto<input type="number" 
+                                name="coxinha"
+                                id="somar"></li>
+                    
+                                 <li> Queijo <input type="number" name="somar3" id="somar3"></li>
+                              </ul>
+                    
+                           <button type="button" value="pedido" onclick="calcular()">pedido</button>
+                        </section>
+                    
+                      <section class="produto">
+                           <h2> RISSOLES</h2>
+                             <ul>
+                                <li>Frango    <input type="number" name="somar"  id="somar"><li>
+                                <li>Presunto  <input type="number"></li>
+                                <li>Queijo    <input type="number"></li>
+                             </ul>
+                             <button type="button" value="pedido" onclick="calcular()">Pedido</button>
+                             </section>
+                           </div>
+                             <section class="produto">
+                              <h2>FOGAZZA</h2>
+                                <ul>
+                                   <li> Frango   <input type="number"></li>
+                                   <li> Presunto <input type="number"></li>
+                                   <li> Queijo   <input type="number"></li>
+                                </ul>
+                                <button type="button">Pedido</button>
+                                </section>
+                                <section class="produto">
+                                   <h2>BOLINHO DE OVO</h2>
+                                     <ul>
+                                        <li> Frango   <input type="number"></li>
+                                        <li> Presunto <input type="number"></li>
+                                        <li> Queijo   <input type="number"></li>
+                                     </ul>
+                                     <button type="button">Pedido</button>
+                                     </section>
+                       </div>
+                    
+                                  <section class="produto">
+                                    <h2>BOLINHO</h2>
+                                      <ul>
+                                         <li> Frango<input type="number"></li>
+                                         <li> Presunto<input type="number"></li>
+                                         <li> Queijo<input type="number"></li>
+                                      </ul>
+                                      <button type="button" >Pedido</button>
+                                      </section>
+                                      <section class="produto">
+                                         <h2>PASTEL</h2>
+                                           <ul>
+                                              <li> Frango   <input type="number"></li>
+                                              <li> Presunto <input type="number"></li>
+                                              <li> Queijo   <input type="number"></li>
+                                           </ul>
+                                        <button type="button">Pedido</button>
+                                       </section>
+                    
+                                       </section>
+                    
+
+                                                          </main> 
+                       
+                      
+  <footer>
+     
+        <button id="cart-btn">
+         <img src= "imagens/carrinho dm.jpg" width="30px" alt="imagem do carrinho de comprar">
+         (<span id="cart-cout">0
+        
+         </span>)
+        </button>
+
+  </footer>
+
+ <script src="web.js"></script>
+ </bady>
+ </html>

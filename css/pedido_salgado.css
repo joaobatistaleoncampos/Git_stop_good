@@ -1,0 +1,73 @@
+
+body{
+
+background-color:  rgb(215, 215, 201);
+}
+#meu-carrinho{
+    background-color:white;
+    width: 400px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 15px;
+    margin: auto  ;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    
+   }
+   
+   
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 600px;
+   background-color: rgb(252, 156, 2);
+   
+   }
+   h3{
+    margin-left: 60px;
+    margin-bottom: 5px;
+   }
+  /* #res{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    border: solid ;
+    width: 100px;
+    padding: 20px;
+   }*/
+   
+    
+   
+button{
+
+
+    background-color: rgb(216, 140, 25);
+    border-radius: 10px;
+}
+ .botao :hover{
+    background-color: white;
+}
+
+
+
+
+
+.produto{
+    margin:30px;
+    display:flexbox;
+    margin-left: 140px;
+    margin-top:15px;
+    }
+    a{
+text-decoration: none;
+
+    }
+
+    #cart-btn{
+        background-color: rgb(234, 135, 99);
+        width: 1600px;
+    }
+  
