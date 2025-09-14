@@ -1,5 +1,5 @@
 
-    let somar = document.getElementById('somar')
+    let valor = document.getElementById('valor')
     let cartModal = document.getElementById("meu-carrinho")
     let cartTotal = document.getElementById("cart-total") //carrinho
     let cartBtn = document.getElementById("cart-btn") // carrinho
@@ -22,9 +22,12 @@
          }
        })
 
-       function calcular(){
-         let geral = (somar.cartModal)
-         res.innerHTML=`${geral}`
+       function calcularTotal(){
+         let valor=(somar.cartModal)
+         
+         if(valor == 3,50){
+          res.innerHTML+=`O valor é ${valor}`
+         }
 
        }
 
